@@ -1,0 +1,67 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/*reset*/
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+html, body {
+	font-family: 'Raleway', sans-serif;
+	height: 100%;
+}
+main {
+	width: 100%;
+	height: 100%;
+}
+header {
+	width: 100%;
+	position: fixed;
+	right: 0;
+	left: 0;
+	background: #111;
+}
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+}
+nav a {
+	margin: 0 2em;
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 700;
+	text-decoration: none;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.child {
+	width: 350px;
+	height: 300px;
+	margin: .2rem;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+
+/*#mobile view*/
+@media only screen and (max-width: 480px) {
+ nav a{
+		margin: 0 .4em;
+	}
+	.child {
+		width: 100%;
+		height: 100%;
+		margin: .2rem 0;
+	}
+}
+
+/*CREDIT TO UNSPLASH.COM*/
+/*for these images*/
+
