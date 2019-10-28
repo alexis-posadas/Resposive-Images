@@ -50,6 +50,12 @@ img {
 	height: 100%;
 }
 
+
+.child img:hover{
+	width: 200%;
+    height: 200%;
+    transition: .5s;
+}
 /*#mobile view*/
 @media only screen and (max-width: 480px) {
  nav a{
